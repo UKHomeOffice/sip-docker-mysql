@@ -48,8 +48,8 @@ RUN set -ex; \
 	rm -rf "$GNUPGHOME"; \
 	apt-key list > /dev/null
 
-ENV MYSQL_MAJOR 5.7
-ENV MYSQL_VERSION 5.7.31-1debian9
+ENV MYSQL_MAJOR 8.0
+ENV MYSQL_VERSION 8.0.36-1debian9
 
 RUN echo "deb http://repo.mysql.com/apt/debian/ stretch mysql-${MYSQL_MAJOR}" > /etc/apt/sources.list.d/mysql.list
 
