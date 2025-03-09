@@ -1,6 +1,6 @@
-# Docker MySQL Container
+# SIP Docker MySQL Container
 
-Docker MySQL Container that extends the official home office docker base image.
+Docker MySQL Container pulled from the official Docker MySQL repo: https://github.com/docker-library/mysql/blob/6978e12b0d46abf24015045bd22a0cf11b19c150/8.0/Dockerfile.oracle
 
 ## Getting Started
 
